@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peseudo-elementos</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(4, 0, 255);
+        }
+        a:visited{
+            color: rgb(164, 164, 164);
+        }
+        a::after{
+            content: '[link]';
+            color: rgba(128, 128, 128, 0.386);
+        }
+        .importante{
+            background-color: yellow;
+        }
+        .importante::before{
+            content: 'IMPORTANTE:';
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/#google_vignette">Aula do curso</a></li>
+        <li><a href="youtube.com">Youtube</a></li>
+        <li><a class="importante" href="instagram.com">Instagram</a></li>
+    </ul>
+</body>
+</html>
