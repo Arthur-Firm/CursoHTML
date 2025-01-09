@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
 *{
     margin: 0px;
 }
@@ -8,11 +15,15 @@ header{
     padding: 45px;
 }
 header > h1{
+    width: auto;
     color: white;
     text-align: center;
     margin-bottom: 30px;
     font-weight: bolder;
-    font-size: 2.1em;
+    font-variant: small-caps;
+    font-size: 9vw;
+    font-family: var(--fonte2);
+
 }
 
 header > p > a{
@@ -25,10 +36,11 @@ header > p > a:hover{
 }
 
 p{
-    width: 450px;
+    width: 800px;
     font-size: 2em;
     line-height: 2em;
     margin-left: 30px;
+    font-family: var(--fonte3);
 }
 
 #ref{
@@ -39,18 +51,24 @@ p{
 }
 div{
     height: auto;
-    padding: 10px;
 }
 div.branco{
     background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 500px;
+}
+div.branco > p{
+    font-size: 4vw;
 }
 div.paralax > p{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.486);
     color: white;
-    margin-top: 60px;
+    margin-top: 80px;
     padding: 10px;
     border-radius: 10px;
+    
 }
 div.paralax{
     height: 800px;
@@ -58,6 +76,7 @@ div.paralax{
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    box-shadow: inset 1px 1px 5px 0px black;
 
 }
 #q1{
@@ -65,4 +84,15 @@ div.paralax{
 }
 #q2{
     background-image: url("imagens/background002.jpg");
+}
+
+footer{
+    background-color: black;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    width: auto;
+    font-family: var(--fonte1);
 }
