@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-size: 1.4em;
+        }
+        table{
+            width: 400px;
+            margin: auto;
+            border-collapse: collapse;
+            position: relative;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            height: 150px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        caption{
+            margin-top: 15px;
+            padding: 5px;
+            background-color: lightgray;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        tfoot td{
+            font-weight: bold;
+            text-align: right;
+        }
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    São Paulo
+                </td>
+                <td class="num">
+                    45 973 190	
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Minas Gerais
+                </td>
+                <td class="num">
+                    21 322 692
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rio de Janeiro
+                </td>
+                <td class="num">
+                    17 219 679
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bahia
+                </td>
+                <td class="num">
+                    14 850 513
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Paraná
+                </td>
+                <td class="num">
+                    11 824 665
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rio Grande do Sul
+                </td>
+                <td class="num">
+                    11 229 915
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pernambuco
+                </td>
+                <td class="num">
+                    11 229 915
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <td> 132 000 000 </td>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolor, cum amet magni, ratione placeat quod unde non porro aut minus! Facere saepe fugiat rem sit blanditiis, et molestiae modi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum assumenda eius aliquid reprehenderit vero officiis quidem commodi perspiciatis, modi, vitae laborum! Repellendus ea quod doloremque veniam error aliquam pariatur minima? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus delectus illum est ab debitis eius iusto veniam. At hic suscipit soluta voluptates aliquam numquam quae, possimus, assumenda nobis perferendis expedita? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam vitae omnis mollitia impedit quia ea laboriosam tempora minima fugiat corrupti earum velit qui maxime, dolorem, culpa cum? Quos, similique obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi assumenda eaque facere nemo fugiat atque labore totam tempore tenetur, delectus, quidem ea fugit. Magni laborum vitae nostrum autem minima consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem asperiores, dignissimos rem ab ea est inventore illo in perspiciatis sapiente, magni perferendis quasi quidem doloremque labore quod aspernatur. Similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, suscipit neque! Animi ea quibusdam quasi cupiditate dolore provident. Nam unde deleniti veritatis commodi quasi reprehenderit, quisquam minima! Quo, ducimus id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptates, nesciunt facere ipsa expedita obcaecati consectetur facilis repudiandae corrupti magni, excepturi vel eligendi aliquid, quibusdam nulla similique. Quasi, adipisci porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus adipisci omnis quis alias corrupti aut quibusdam, neque, iste blanditiis hic facilis voluptates asperiores nulla laudantium maiores consequuntur quasi qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, sequi? Dolor, esse eius minima porro ipsam eveniet laboriosam hic consequatur, impedit reiciendis similique nostrum veniam adipisci nam suscipit voluptates? Facilis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam itaque neque aut earum ut deserunt nesciunt error debitis? Veniam nostrum sequi optio assumenda laborum error, autem veritatis quae architecto harum!</p>
+</body>
+</html>
