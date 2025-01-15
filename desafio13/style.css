@@ -35,3 +35,22 @@ iframe{
     height: 470px;
 }
 
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.559);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.588);
+    transform: translate(-3px, -3px);
+    transition: transform .5s, border .4s;
+}
