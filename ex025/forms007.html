@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplos de Select</h1>
+    <form action="cadastro.js" method="post">
+        <select name="estados" id="iestados" style="margin-bottom: 15px;">
+            <option value="" selected>--Escolha--</option>
+            <optgroup label="Centro-Oeste">
+                <option value="GO">Goias</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="DF">Distrito Federal</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select><br>
+        <label for="iprof">Profissões: </label>
+        <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option>Professor</option>
+            <option>Médico</option>
+            <option>Cozinheiro</option>
+            <option>Desenvolvedor</option>
+        </datalist><br>
+        <label for="imsg">Mensagem: </label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
