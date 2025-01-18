@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript em Range</title>
+</head>
+<body>
+    <h1>Aprendendo outputs</h1>
+    <form action="cadastro.js" method="get">    
+        <p>
+            <label for="irange">Nível: </label>
+            <input type="range" name="range" id="irange" value="5" min="0" max="10" oninput="in1.innerHTML = Number(irange.value)">
+            <output id="in1">5</output>
+        </p>
+    </form>
+</body>
+</html>
