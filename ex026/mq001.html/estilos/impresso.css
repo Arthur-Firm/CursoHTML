@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*Estilos para impressão*/
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+menu{
+    display: none;
+}
+
+main::after{
+    content: "Impressão realizada no site de Arthur Firmino";
+}
