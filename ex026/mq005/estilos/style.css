@@ -42,7 +42,7 @@ header menu ul li:hover{
 
 #caixa{
     margin: auto;
-    width: 98vw;
+    width: 100vw;
     text-align: center;
     padding-top: 2px;
     color: white;
@@ -57,6 +57,7 @@ header menu ul li:hover{
 
 #itens{
     display: none;
+    transition: all 1s linear;
 }
 
 main{

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width:769px){
+    #caixa{
+        display: none;
+    }
+
+    #itens{
+        display: block;
+    }
+    
+    header menu ul li{
+        display: inline-block; 
+        padding: 8px 8px 8px 8px;
+        margin-bottom: 0px;
+        border-bottom: 0px;
+    }
+
+    main{
+        width: 769px;
+    }
+}
