@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=lock,person" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -13,7 +15,19 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) ao site, faça o login</p>
+                <p>Seja bem-vindo(a) ao site, faça o login para acessar as funcionalidades do site</p>
+                <form action="cadastro.js" method="post" autocomplete="on">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required minlength="15" placeholder="Seu email">
+                    <label for="iemail">Login</label>
+                    <br>
+                    <span class="material-symbols-outlined">lock</span>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" placeholder="Sua senha">
+                    <label for="isenha">Senha</label>
+                    <br>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci minha senha</a>
+                </form>
             </div>
         </section>
     </main>
