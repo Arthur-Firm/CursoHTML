@@ -17,15 +17,12 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) ao site, faça o login para acessar as funcionalidades do site</p>
                 <form action="cadastro.js" method="post" autocomplete="on">
-                    <span class="material-symbols-outlined">person</span>
-                    <input type="email" name="email" id="iemail" autocomplete="email" required minlength="15" placeholder="Seu email">
-                    <label for="iemail">Login</label>
+                    <div class="campos"><span class="material-symbols-outlined">person</span>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required minlength="15" placeholder="Seu email"></div>
+                    <div class="campos"><span class="material-symbols-outlined">lock</span>
+                    <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" placeholder="Sua senha"></div>
                     <br>
-                    <span class="material-symbols-outlined">lock</span>
-                    <input type="password" name="senha" id="isenha" autocomplete="current-password" required minlength="8" placeholder="Sua senha">
-                    <label for="isenha">Senha</label>
-                    <br>
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar" id="entrar">
                     <a href="#">Esqueci minha senha</a>
                 </form>
             </div>
