@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible boxes</title>
+    <style>
+        .container{
+            background-color: lightblue;
+            display: flex;
+            flex-flow: column wrap-reverse;
+            height: 100px;
+        }
+        .itens{
+            background-color: lightcoral;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itens">Exemplo letra A</div>
+        <div class="itens">Exemplo letra B</div>
+        <div class="itens">Exemplo letra C</div>
+        <div class="itens">Exemplo letra D</div>
+        <div class="itens">Exemplo letra E</div>
+        <div class="itens">Exemplo letra F</div>
+        <div class="itens">Exemplo letra G</div>
+    </div>
+</body>
+</html>
