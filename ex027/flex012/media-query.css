@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 570px) {
+
+header{
+    justify-content: center;
+    
+}
+header h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+    header menu ul{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    header{
+        padding-left: 0px;
+    }
+    header menu ul li{
+        margin-top: 25px;
+        width: 100vw;
+        text-align: center;
+    }
+    header menu ul li a{
+        padding: 8px 150px 8px 150px;
+    }
+}
