@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible boxes</title>
+    <style>
+        .container{
+            background-color: lightblue;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .itens{
+            background-color: lightcoral;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itens" style="order: 4;">A</div>
+        <div class="itens" style="order: 2;">B</div>
+        <div class="itens" style="order: 1;">C</div>
+        <div class="itens" style="order: -2;">D</div>
+        <div class="itens" style="order: 0;">E</div>
+        <div class="itens" style="order: -1;">F</div>
+        <div class="itens" style="order: 3;">G</div>
+    </div>
+</body>
+</html>
